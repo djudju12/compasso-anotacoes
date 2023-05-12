@@ -1,0 +1,52 @@
+Instrutor: Macgaiver Duarte
+
+Scrum
+
+Scrum é um estrutura pra resolver problemas complexos e o desenvolvendo de software é um atividade complexa. 
+
+Scrum funciona pq implementa pilares empíricos, pois são feitas entregas semanas (sprints) o que da tempo para validação do desenvolvendo.
+
+Exemplo da pandemia: Imagine um projeto waterfall planejado em 2020 a pandemia traria varios problemas. Com scrum na proxima sprint estaria tudo no controle. 
+
+Scrum é focado em tecnologia e inovaçao.
+
+~Reunião Inception~
+   Refinar histórias extremamente complexas
+
+Scrum Process
+
+Product Backlog > Sprint Planning > Sprint Backlog  > Sprints > finished word = Sprint Review + Sprint Restropective
+
+Product Backlog > Gerado pelo PO 
+Sprint Planning > Gerará o Sprint Backlog
+Sprint Backlog  > Gerado no passo anterior,
+
+Scrum é engessado? Ele é uma estrutura que permite aclopar coisas dentro dele, se faz sentido pro time é possível adicionar ritos desde que não altere os pilares.
+
+-> Pilares do Scrum 
+   1 - Inspeção
+   2 - Adaptação
+   3 - Transparência
+
+~Exemplo de alterar os pilares~
+   Trocar as dailys para reuniões semanais (Transparência)
+   Trocar as pessoas que irão nas reviews (Inspeção)
+
+-> Scrum Team 
+   Não há hierarquia dentro dos times do Scrum e os times devem permanecer ágeis e grandes suficientes para gerar valor. Por exemplo 10 pessoas ou menos. 
+   Roles
+      1 - PO 
+      2 - SM 
+      3 - Dev
+
+-> O que espera de um Developer?
+   Devem ser autoorganizados, independentes, comunicativos. 
+   Deve ter habilidades de equipe e comprometidos em ajudar os outros integrantes. 
+   O ritmo de trabalho deve ser compativel com as habilidades do time, deve ser sustentável.
+
+-> Produtct Owner 
+   O Product Owner é responsável por analisar e avaliar as necessidades do produto e categorizar o que é prioridade em cada sprint.
+   Ele pode cancelar o role, mas não pode ir adicionando tasks no meio da sprint.
+
+-> Scrum Master
+   Facilitador, retirador de obstáculos. 
