@@ -1,21 +1,3 @@
-# Java Course
-
-### Course:[To be add](...)
-___
-<br>
-
-### Dicas
-___
-
-Quando usar CHAR type lembre-se de usar single quotes 'A'!
-
-Quando usar LONG type lembre-se de adicionar um L no final do numero para
-avisar ao java que se trata de um long
-
-Use pelo menos um double quando for fazer opera��es matematicas. Se voce usar
-dois ints eles ser�o casteados
-
-
 # Cheat Sheet
 
 This cheat sheet contains important takeaways that lead up to section two.
@@ -99,6 +81,5 @@ Put math operations in brackets if you wish to embed them inside a `String`.
 
 -   Use `CMD/Ctrl`+`/` to comment a highlighted piece of code.
 
-**Java tips**
-
--   You can create a copy constructor making a constructor that receives the object
+------
+##### Subscribe to our [YouTube Channel](https://www.youtube.com/@RayanSlim087?sub_confirmation=1) and Discover More Valuable Content!
