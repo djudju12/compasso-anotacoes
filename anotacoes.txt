@@ -1,0 +1,3 @@
+- Estudar Red-black tree 
+- Estudar como utiliza-lo em um hash map
+- High-Order functions

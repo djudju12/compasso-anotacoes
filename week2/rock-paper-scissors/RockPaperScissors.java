@@ -1,9 +1,12 @@
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class RockPaperScissors {
     public static void main(String[] args) {
-    
+        Map m = new HashMap<>();
+
         Scanner s = new Scanner(System.in);
 
         System.out.println("Lets play Rock Paper Scissors.");
