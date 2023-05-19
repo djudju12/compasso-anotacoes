@@ -6,17 +6,11 @@ ___
 
 <br>
 
-### O que vou aprender neste modulo?
-___
-* Descrever as ferramentas do AWS 
-Well-Architected Framework
-
-* Descrever principios de design na nuvem
-
-* Descrever pilares da AWS Well-Architected 
-
-* Descrever os usos do AWS Well-Architected
-
+Benefits 
+* Builkd and deploy faster
+* Lower or mitigate risks
+* Make informed decisions
+* Leans aws best practices
 ___
 
 AWS Well-Acrthitected fala sobre estratégias e melhores práticas para arquitetar na nuvem. Provê maneiras de mensurar sua arquitetura contra as melhoras práticas da AWS e identificar como resolver problemas.
@@ -256,10 +250,6 @@ ___
 
    * How we handle change
 
-   
-
-   
-
 ### Performance Efficiency
 ___
 
@@ -274,8 +264,64 @@ ___
 
    * Fazendo architectural trade-offs para maximizar eficiencia 
 
+
+
+   Best practices:
+
+   Optimal server config for a particular workload may vary based on app design
+   Often multiple approaches are requireto to get optiam performance. One key best practice is to appropriately size compute, storage, database and networking resources.
+
+   If possible for your workload, start by utilizing a reference arch or looking ate the amazon builder library or one of the quick start deployment aws.
+
+   Benchmarking and load testing allow you yo experiement with different sizes of resources and features.
+
+   You should reatp this processos to evaluate new size options and features as they become avaible
+
+   Review: Load testing
+   * Use AWS CloudFormation to define your arch as code, allowing you to version control and modify over time. This allow you to provision different envs in a controlled way, but more importantly, allows you to bring up production-scale test envs.
+   * After you implement your architecture you must monitor its performance so that you can remediate. You can use Amazon CloudWatch to collect metrics, logs files, and set **alarms** as well as initiate actions through Amazon Kineses, Amazons SQS and AWS Lambda
+   
+   Efficiency:
+   * When you architect solutions think about trade-offs, you could trade consistency, durability and space for time or latency to deliver higher performance.
+   * As you make changes on the workload, collect and evaluate metrics to determine the impact of those changes.
+   * Proximity and caching mechanisms: You can use Amazon CloudFront to cache content closer to the end user with the edges locations. You can implement in the database layer using Amazon Elasticache. Or read-replicas of your databse RDS, this can be easy to implement.
+
+   * Democratize advanced tech (because you can try new things easy)
+   * Go global in minutes
+   * Use serverless arch   
+   * Experiment more often
+   * Consider mechanical sympath (making sure that we understand how each component of the system works)
+
 ### Cost Optimization
 ___
+
+   best practice:
+   Mange demand and supply with the right amount of resource:
+   * Manage demand with a queue or buffer 
+   * Supply the right amount of resources throug AWS Auto Scaling (demand based or time based)
+
+   Expenditure awaraness
+   * Tag resources
+   * Track project lifecycle and profile applications
+   * monotr usage and spend
+   * use aws cost explorer
+   * use partner tool
+
+   Use AWS Cost explorer to catogarize and track your AWS cost
+   * For exampole, you can use AWS Cost Explorer to see which services you use mnost, which Availability Zones most of your traffic is in etc. You can check more in [Whats is Cost Explorer?](https://docs.aws.amazon.com/cost-management/latest/userguide/ce-what-is.html)
+
+   Optimize over time:
+   * Review existing arch decision to be ensure that its the best 
+
+   * On-demand instances allow you to pay by the hour withou long term commitment
+   * Saving Plans and Reserved Instances allow you to commit to a spend leve or usage amount, and receive savings to 72% off on-demand pricing
+   * With Spot Instances, you can consume on unused EC2 capacity at significant discounts. Spot Instances are appropriate when the syscan can tolaerate using a fleet of servers where individual server can come and go dynamically
+
+   * Analyze avaible services
+   * Take advantage of managed AWS services
+   * Consider application-level services
+   * Automation can reduce costs
+
    * Practice Cloud Financial Management - Perceba valor de negocio
    e sucesso financeiro conforme voce otimiza seu custo e uso
 
@@ -345,3 +391,8 @@ Em nuvem
 * Data-Driven arquiteturas
 
 * **Game days:** Run failure tests to see if all the recovering planes ar working
+
+### Tool
+
+The AWS Well-Architected Tool is and architecture review tool that provides customers and partners with a consistent approach to reviewing their archi against aws best practices.
+
