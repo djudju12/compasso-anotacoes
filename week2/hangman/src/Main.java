@@ -7,7 +7,6 @@ public class Main {
         readWords();
 
     }
-
     private static void readWords() {
         try(BufferedReader br = new BufferedReader(new FileReader("/home/jonathan/repos/compasso-anotacoes/week2/hangman/src/words.txt"))) {
             StringBuilder sb = new StringBuilder();
